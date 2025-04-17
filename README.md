@@ -28,10 +28,12 @@ Jokebook/
 ```bash
 git clone https://github.com/YOUR_USERNAME/Jokebook.git
 cd Jokebook
+```bash
 
-2. Install backend dependencies
+### 2. Install backend dependencies
 
 npm install
+
 3. Enable CORS (required for frontend-backend communication)
 Install cors in the backend to allow requests from React:
 
