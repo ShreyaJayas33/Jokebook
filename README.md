@@ -8,7 +8,7 @@ This is a full-stack web application built with **Node.js**, **Express**, **SQLi
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 Jokebook/
@@ -23,7 +23,7 @@ Jokebook/
 └── .gitignore         # Excludes node_modules, etc.
 ```
 
-## 🧠 How to Run the App
+## How to Run the App
 
 ### 1. Clone the repo
 
@@ -53,7 +53,7 @@ const cors = require('cors');
 app.use(cors());
 ```
 
-✅ **Note:** Even if someone downloads the project, they must run `npm install cors` unless it's already installed via `package.json`.
+**Note:** Even if someone downloads the project, they must run `npm install cors` unless it's already installed via `package.json`.
 
 ### 4. Install frontend dependencies
 
@@ -116,7 +116,7 @@ npm install axios
 
 ---
 
-✅ **Author**
+**Author**
 
 Built by Shreya Jayas  
 Submitted for CSC372 / Sunny  
