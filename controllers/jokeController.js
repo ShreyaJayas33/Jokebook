@@ -1,3 +1,13 @@
+/*
+  Name: Shreya Jayas
+  Date: 04.17.2025
+  CSC 372-01
+
+  This controller file manages all joke-related requests, such as fetching categories, fetching jokes by category,
+  handling random joke retrieval, and adding new jokes to the database.
+*/
+
+
 const model = require('../models/jokeModel');
 const axios = require('axios');
 

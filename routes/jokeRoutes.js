@@ -1,3 +1,13 @@
+/*
+  Name: Shreya Jayas
+  Date: 04.17.2025
+  CSC 372-01
+
+  This file defines all the routes/endpoints for joke-related actions in the Jokebook project.
+  It links each route with corresponding controller functions.
+*/
+
+
 const express = require('express');
 const router = express.Router();
 const controller = require('../controllers/jokeController');

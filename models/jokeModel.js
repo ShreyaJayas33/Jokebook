@@ -1,3 +1,13 @@
+/*
+  Name: Shreya Jayas
+  Date: 04.17.2025
+  CSC 372-01
+
+  This model file handles database interactions for the Jokebook project, such as querying jokes,
+  categories, inserting new jokes, and fetching random jokes from the SQLite database.
+*/
+
+
 const db = require('../db/database');
 
 exports.getCategories = () => ['funnyJoke', 'lameJoke'];

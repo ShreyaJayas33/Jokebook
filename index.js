@@ -1,3 +1,13 @@
+/*
+  Name: Shreya Jayas
+  Date: 04.17.2025
+  CSC 372-01
+
+  This is the main entry point for the Express backend server of the Jokebook project.
+  It sets up the Express server, middleware, and routes.
+*/
+
+
 const express = require('express');
 const cors = require('cors'); // ✅ Import cors
 
