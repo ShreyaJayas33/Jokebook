@@ -10,17 +10,17 @@ This is a full-stack web application built with **Node.js**, **Express**, **SQLi
 
 ## 📦 Project Structure
 
-/Jokebook
-├── client/               ← React frontend
-├── controllers/
-├── db/
-├── models/
-├── routes/
-├── index.js              ← Express backend entry point (must be at root)
-├── package.json
-└── .gitignore
+Jokebook/
+│
+├── client/            # React frontend
+├── controllers/       # Logic for handling API requests
+├── db/                # SQLite database and schema
+├── models/            # DB interaction (SQL logic)
+├── routes/            # Express routes for API
+├── index.js           # Main backend entry point
+├── package.json       # Backend dependencies
+└── .gitignore         # Excludes node_modules, etc.
 
----
 
 ## 🧠 How to Run the App
 
