@@ -1,0 +1,140 @@
+/* Reset & Base */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f6ff;
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+}
+
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 1.5rem;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 3rem;
+}
+
+/* Joke box and items */
+.joke-box,
+.joke-item {
+  background: #f0f4ff;
+  padding: 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(153, 172, 255, 0.1);
+  margin-top: 1rem;
+  transition: transform 0.3s;
+}
+
+.joke-box:hover,
+.joke-item:hover {
+  transform: translateY(-5px);
+  background: #eaf0ff;
+}
+
+/* Buttons */
+button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  background: #4a63f2;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #3949d1;
+  transform: scale(1.05);
+}
+
+/* Category Buttons */
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.category-list button {
+  margin: 0.4rem;
+  background: #e3e9ff;
+  color: #2c3e50;
+  padding: 0.4rem 1.2rem;
+  border-radius: 20px;
+  border: 1px solid #ccd7ff;
+}
+
+.category-list button:hover {
+  background: #ccd7ff;
+}
+
+/* Forms */
+input[type="text"] {
+  margin: 0.4rem 0.5rem 0.4rem 0;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 70%;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #4a63f2;
+  box-shadow: 0 0 5px rgba(74, 99, 242, 0.3);
+}
+
+/* Form layout */
+.joke-form input {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.joke-form button {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Error styling */
+.error {
+  color: #e74c3c;
+  background: #ffe6e6;
+  padding: 0.6rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
