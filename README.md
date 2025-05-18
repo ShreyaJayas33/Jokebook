@@ -119,5 +119,3 @@ npm install axios
 **Author**
 
 Built by Shreya Jayas  
-Submitted for CSC372 / Sunny  
-Spring 2025
